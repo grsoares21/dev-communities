@@ -5,7 +5,7 @@ import { config } from "https://deno.land/x/dotenv/mod.ts";
 type TwitterProfile = {
   id: string;
   name: string;
-  handle: string;
+  username: string;
 };
 
 const devTwitters = JSON.parse(

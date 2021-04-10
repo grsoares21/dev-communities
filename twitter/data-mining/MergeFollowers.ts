@@ -3,13 +3,11 @@
 
 const followersByTwitter = [];
 
-for await (const dirEntry of Deno.readDir(
-  "./data-store/individual-followers"
-)) {
+for await (const dirEntry of Deno.readDir("../data/individual-followers")) {
   if (dirEntry.isFile) {
     const name = dirEntry.name.replace(".csv", "");
     const followers = Deno.readTextFileSync(
-      `./data-store/individual-followers/${dirEntry.name}`
+      `../data/individual-followers/${dirEntry.name}`
     ).split(",");
 
     followersByTwitter.push({ name, followers });
@@ -27,4 +25,4 @@ for (let i = 0; i < followersByTwitter[0].followers.length; i++) {
     followersByTwitter.map((tt) => tt.followers[i] ?? "").join(",") + "\n";
 }
 
-Deno.writeTextFileSync("./data-store/allFollowers.csv", csvString);
+Deno.writeTextFileSync("../data/allFollowers.csv", csvString);

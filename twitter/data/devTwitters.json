@@ -1,290 +1,338 @@
 [
   {
+    "id": "1184804460331180032",
+    "name": "Women That React",
+    "username": "womenthatreact"
+  },
+  {
     "id": "1221846264440131586",
     "name": "Gabriel R. Soares",
-    "handle": "_grsoares"
+    "username": "_grsoares"
   },
   {
     "id": "1358580791828185093",
     "name": "Rafaella Ballerini",
-    "handle": "ballerinirafa"
+    "username": "ballerinirafa"
   },
   {
     "id": "1353019978698682368",
     "name": "Lorena Kauane Porphirio",
-    "handle": "lorenaporphirio"
+    "username": "lorenaporphirio"
   },
   {
     "id": "1338983701695385608",
     "name": "dev-roadmap",
-    "handle": "dev_roadmap"
+    "username": "dev_roadmap"
   },
   {
     "id": "1276860863190884352",
     "name": "DevSuperior",
-    "handle": "DevSuperior"
+    "username": "DevSuperior"
   },
   {
     "id": "1235644947329699840",
     "name": "Universo Flutter 💙🚀",
-    "handle": "universoflutter"
+    "username": "universoflutter"
   },
   {
     "id": "1232508109572186114",
     "name": "Luiz Victor Linhares Rocha",
-    "handle": "LuizVictorLinh1"
+    "username": "LuizVictorLinh1"
   },
   {
     "id": "1214613045986680839",
     "name": "Fabio Vedovelli",
-    "handle": "vedovelli74"
+    "username": "vedovelli74"
   },
   {
     "id": "1202948086445879299",
     "name": "Michelli Brito",
-    "handle": "MichelliBrito4"
+    "username": "MichelliBrito4"
   },
   {
     "id": "1194770843445989376",
     "name": "m♥z@! - Sinuca Cup",
-    "handle": "devMozao"
-  },
-  {
-    "id": "1184804460331180032",
-    "name": "Women That React",
-    "handle": "womenthatreact"
+    "username": "devMozao"
   },
   {
     "id": "1172171964930281472",
     "name": "Marcus Pereira",
-    "handle": "marcuxyz"
+    "username": "marcuxyz"
   },
   {
     "id": "1115091066364071937",
     "name": "Programação Dinâmica",
-    "handle": "pgdinamica"
+    "username": "pgdinamica"
   },
   {
     "id": "1095313105528283136",
     "name": "2devspodcast",
-    "handle": "2devspodcast"
+    "username": "2devspodcast"
   },
   {
     "id": "1088416218556579841",
     "name": "twitch.tv/pachicodes",
-    "handle": "pachicodes"
+    "username": "pachicodes"
   },
   {
     "id": "1078763152479866882",
     "name": "nomad Codemist",
-    "handle": "FabrciaDiniz"
+    "username": "FabrciaDiniz"
   },
   {
     "id": "1076826135764353026",
     "name": "Luis Filipe Pedroso",
-    "handle": "luiiisfilipee"
+    "username": "luiiisfilipee"
   },
-  { "id": "1035093640232820738", "name": "Leticia", "handle": "levxyca" },
-  { "id": "1030500565564960769", "name": "laura", "handle": "LauraViglioni" },
-  { "id": "1007408825434025985", "name": "Rita", "handle": "ritalinux" },
+  { "id": "1035093640232820738", "name": "Leticia", "username": "levxyca" },
+  { "id": "1030500565564960769", "name": "laura", "username": "LauraViglioni" },
+  { "id": "1007408825434025985", "name": "Rita", "username": "ritalinux" },
   {
     "id": "1000477703659773952",
     "name": "Letícia Pedroso",
-    "handle": "pedrososleticia"
+    "username": "pedrososleticia"
   },
-  { "id": "995429424312012801", "name": "quebradev", "handle": "quebradev" },
+  { "id": "995429424312012801", "name": "quebradev", "username": "quebradev" },
   {
     "id": "991457498593886209",
     "name": "Devs JavaGirl",
-    "handle": "devsjavagirl"
+    "username": "devsjavagirl"
   },
   {
     "id": "920817010073882624",
     "name": "TelleScript",
-    "handle": "UnicornCoder"
+    "username": "UnicornCoder"
   },
-  { "id": "867362170392203265", "name": "Rocketseat", "handle": "rocketseat" },
+  {
+    "id": "867362170392203265",
+    "name": "Rocketseat",
+    "username": "rocketseat"
+  },
   {
     "id": "860527744077189122",
     "name": "Laís Lima 🇧🇷",
-    "handle": "laislima_dev"
+    "username": "laislima_dev"
   },
   {
     "id": "839068743313555456",
     "name": "L likes your hair",
-    "handle": "ellenkorbes"
+    "username": "ellenkorbes"
   },
   {
     "id": "816744524907245568",
     "name": "WoMakersCode - Protagonismo Feminino na Tecnologia",
-    "handle": "womakerscode"
+    "username": "womakerscode"
   },
-  { "id": "815166494006984704", "name": "A Caaddss", "handle": "_caaddss" },
+  { "id": "815166494006984704", "name": "A Caaddss", "username": "_caaddss" },
   {
     "id": "813053481372237824",
     "name": "Morganna Giovanelli",
-    "handle": "morgiovanellis"
+    "username": "morgiovanellis"
   },
-  { "id": "804134173883645952", "name": "tiago_m", "handle": "iN127pkt" },
+  { "id": "804134173883645952", "name": "tiago_m", "username": "iN127pkt" },
   {
     "id": "765271209273688064",
     "name": "crossfiteira de respeito",
-    "handle": "juligaioso"
+    "username": "juligaioso"
   },
-  { "id": "752558323409547264", "name": "Takah", "handle": "_luistak" },
+  { "id": "752558323409547264", "name": "Takah", "username": "_luistak" },
   {
     "id": "750860233413632000",
     "name": "William Grasel 🇧🇷🏴",
-    "handle": "willgmbr"
+    "username": "willgmbr"
   },
-  { "id": "709579668911882240", "name": "Elder Moraes", "handle": "elderjava" },
-  { "id": "4873024449", "name": "Nana", "handle": "shebangbash" },
-  { "id": "3524783957", "name": "VannyScript 🎲🦩", "handle": "WonderWanny" },
-  { "id": "3429765093", "name": "Paula Santana", "handle": "psanrosa13" },
-  { "id": "3391375907", "name": "Aumentativo de Helena", "handle": "dii_lua" },
-  { "id": "3374475724", "name": "William Queiroz", "handle": "wnqueiroz" },
-  { "id": "3343335497", "name": "Erick Wendel", "handle": "erickwendel_" },
-  { "id": "3221432117", "name": "Eduardo Wronscki", "handle": "eduwric" },
-  { "id": "3066035968", "name": "Diego Fernandes", "handle": "dieegosf" },
-  { "id": "3012252010", "name": "Joao Marins", "handle": "jgcmarins" },
-  { "id": "2881155633", "name": "Claudio Orlandi", "handle": "csorlandi" },
-  { "id": "2814170180", "name": "Campus Code", "handle": "campuscodebr" },
+  {
+    "id": "709579668911882240",
+    "name": "Elder Moraes",
+    "username": "elderjava"
+  },
+  { "id": "4873024449", "name": "Nana", "username": "shebangbash" },
+  { "id": "3524783957", "name": "VannyScript 🎲🦩", "username": "WonderWanny" },
+  { "id": "3429765093", "name": "Paula Santana", "username": "psanrosa13" },
+  {
+    "id": "3391375907",
+    "name": "Aumentativo de Helena",
+    "username": "dii_lua"
+  },
+  { "id": "3374475724", "name": "William Queiroz", "username": "wnqueiroz" },
+  { "id": "3343335497", "name": "Erick Wendel", "username": "erickwendel_" },
+  { "id": "3221432117", "name": "Eduardo Wronscki", "username": "eduwric" },
+  { "id": "3066035968", "name": "Diego Fernandes", "username": "dieegosf" },
+  { "id": "3012252010", "name": "Joao Marins", "username": "jgcmarins" },
+  { "id": "2881155633", "name": "Claudio Orlandi", "username": "csorlandi" },
+  { "id": "2814170180", "name": "Campus Code", "username": "campuscodebr" },
   {
     "id": "2655273811",
     "name": "Juliana Dias ¦ Working on Coworking Pass",
-    "handle": "juuh42dias"
+    "username": "juuh42dias"
   },
-  { "id": "2437883893", "name": "barbara ellen", "handle": "fiqueibarbara" },
-  { "id": "2355503190", "name": "Renato Groff", "handle": "RenatoGroff" },
-  { "id": "2318334965", "name": "Dunossauro 🦖", "handle": "dunossauro" },
-  { "id": "2313873457", "name": "Sibelius Seraphini", "handle": "sseraphini" },
-  { "id": "2243620811", "name": "Ana ( );", "handle": "anabneri" },
-  { "id": "2241189733", "name": "Téo Calvo", "handle": "TeoCalvo" },
+  { "id": "2437883893", "name": "barbara ellen", "username": "fiqueibarbara" },
+  { "id": "2355503190", "name": "Renato Groff", "username": "RenatoGroff" },
+  { "id": "2318334965", "name": "Dunossauro 🦖", "username": "dunossauro" },
+  {
+    "id": "2313873457",
+    "name": "Sibelius Seraphini",
+    "username": "sseraphini"
+  },
+  { "id": "2243620811", "name": "Ana ( );", "username": "anabneri" },
+  { "id": "2241189733", "name": "Téo Calvo", "username": "TeoCalvo" },
   {
     "id": "2206041386",
     "name": "Mario Souto - Dev Soutinho",
-    "handle": "omariosouto"
+    "username": "omariosouto"
   },
-  { "id": "1608386678", "name": "Felipe Bidu", "handle": "fevir0" },
-  { "id": "1566580880", "name": "Alura", "handle": "AluraOnline" },
-  { "id": "1526154452", "name": "Kamila Santos", "handle": "kamilah_santos" },
+  { "id": "1608386678", "name": "Felipe Bidu", "username": "fevir0" },
+  { "id": "1566580880", "name": "Alura", "username": "AluraOnline" },
+  { "id": "1526154452", "name": "Kamila Santos", "username": "kamilah_santos" },
   {
     "id": "1229110016",
     "name": "danielhe4rtless.php",
-    "handle": "danielhe4rt"
+    "username": "danielhe4rt"
   },
-  { "id": "713429234", "name": "ReisDev", "handle": "reisdev" },
-  { "id": "539586440", "name": "Marco Bruno 🇧🇷 🇸🇪", "handle": "marcobrunodev" },
-  { "id": "506361619", "name": "Allan - Toramaru08", "handle": "Toramaru08_" },
-  { "id": "476416300", "name": "Marcel dos Santos", "handle": "marcelgsantos" },
-  { "id": "366713577", "name": "Jeferson Fernando", "handle": "badtux_" },
-  { "id": "356284850", "name": "Beto Muniz 👨‍💻", "handle": "obetomuniz" },
-  { "id": "325823884", "name": "Marcio Frayze", "handle": "marciofrayze" },
-  { "id": "272651408", "name": "Neto Silva", "handle": "alnetosilva" },
-  { "id": "257139171", "name": "Joacir Júnior", "handle": "jrjoacir" },
-  { "id": "252189668", "name": "braziljs", "handle": "braziljs" },
-  { "id": "237930934", "name": "Su Specie", "handle": "suspecie" },
-  { "id": "223911499", "name": "Otávio Santana", "handle": "otaviojava" },
-  { "id": "216656200", "name": "Lucas Montano", "handle": "lucas_montano" },
+  { "id": "713429234", "name": "ReisDev", "username": "reisdev" },
+  {
+    "id": "539586440",
+    "name": "Marco Bruno 🇧🇷 🇸🇪",
+    "username": "marcobrunodev"
+  },
+  {
+    "id": "506361619",
+    "name": "Allan - Toramaru08",
+    "username": "Toramaru08_"
+  },
+  {
+    "id": "476416300",
+    "name": "Marcel dos Santos",
+    "username": "marcelgsantos"
+  },
+  { "id": "366713577", "name": "Jeferson Fernando", "username": "badtux_" },
+  { "id": "356284850", "name": "Beto Muniz 👨‍💻", "username": "obetomuniz" },
+  { "id": "325823884", "name": "Marcio Frayze", "username": "marciofrayze" },
+  { "id": "272651408", "name": "Neto Silva", "username": "alnetosilva" },
+  { "id": "257139171", "name": "Joacir Júnior", "username": "jrjoacir" },
+  { "id": "252189668", "name": "braziljs", "username": "braziljs" },
+  { "id": "237930934", "name": "Su Specie", "username": "suspecie" },
+  { "id": "223911499", "name": "Otávio Santana", "username": "otaviojava" },
+  { "id": "216656200", "name": "Lucas Montano", "username": "lucas_montano" },
   {
     "id": "215374236",
     "name": "Vinicius Dias | Dias de Dev",
-    "handle": "cviniciussdias"
+    "username": "cviniciussdias"
   },
-  { "id": "193906264", "name": "Rychillie 🦄", "handle": "rychillie" },
-  { "id": "182532142", "name": "Carla Vieira", "handle": "carlaprvieira" },
-  { "id": "173578221", "name": "Leandro Scardua", "handle": "leandroscardua" },
-  { "id": "172880784", "name": "felipe.ts ⚡", "handle": "felipefialho_" },
+  { "id": "193906264", "name": "Rychillie 🦄", "username": "rychillie" },
+  { "id": "182532142", "name": "Carla Vieira", "username": "carlaprvieira" },
+  {
+    "id": "173578221",
+    "name": "Leandro Scardua",
+    "username": "leandroscardua"
+  },
+  { "id": "172880784", "name": "felipe.ts ⚡", "username": "felipefialho_" },
   {
     "id": "160860061",
     "name": "Tomkiel - OpenCast - twitch.tv/tomkiel",
-    "handle": "tomtomkiel"
+    "username": "tomtomkiel"
   },
   {
     "id": "147370299",
     "name": "tmux new -s ForaBolsonaroVacinaJá",
-    "handle": "devdrops"
+    "username": "devdrops"
   },
-  { "id": "135049387", "name": "Nicholas⚡Eduardo", "handle": "nicholasess" },
-  { "id": "119897261", "name": "Willian Justen", "handle": "Willian_justen" },
+  { "id": "135049387", "name": "Nicholas⚡Eduardo", "username": "nicholasess" },
+  { "id": "119897261", "name": "Willian Justen", "username": "Willian_justen" },
   {
     "id": "116473007",
     "name": "Fernando - Código Falado",
-    "handle": "CodigoFalado"
+    "username": "CodigoFalado"
   },
-  { "id": "96212527", "name": "Adriano Ohana", "handle": "MrOhanaBR" },
+  { "id": "96212527", "name": "Adriano Ohana", "username": "MrOhanaBR" },
   {
     "id": "94371616",
     "name": "Frankyston Lins (FlyntTv)",
-    "handle": "frankyston"
+    "username": "frankyston"
   },
-  { "id": "92854098", "name": "Jose C Macoratti", "handle": "macorati" },
-  { "id": "70854236", "name": "Vinícius Ferraz", "handle": "viniciusfcf" },
+  { "id": "92854098", "name": "Jose C Macoratti", "username": "macorati" },
+  { "id": "70854236", "name": "Vinícius Ferraz", "username": "viniciusfcf" },
   {
     "id": "69734383",
     "name": "belle-🏴.dev || twitch.tv/bellesamways",
-    "handle": "bellesamways"
+    "username": "bellesamways"
   },
-  { "id": "69289864", "name": "Lucas Santos", "handle": "_StaticVoid" },
-  { "id": "66179980", "name": "dev mustaine", "handle": "punkdodevops" },
+  { "id": "69289864", "name": "Lucas Santos", "username": "_StaticVoid" },
+  { "id": "66179980", "name": "dev mustaine", "username": "punkdodevops" },
   {
     "id": "65906993",
     "name": "Patrick Monteiro / Dev da Amazônia",
-    "handle": "monteiropatrick"
+    "username": "monteiropatrick"
   },
-  { "id": "65057868", "name": "José (Zé)", "handle": "jose_filho_dev" },
+  { "id": "65057868", "name": "José (Zé)", "username": "jose_filho_dev" },
   {
     "id": "63215909",
     "name": "Rinaldo Pitzer Jr. 🇧🇷💻",
-    "handle": "rinaldodev"
+    "username": "rinaldodev"
   },
-  { "id": "62851712", "name": "Adriano", "handle": "adrianolcp" },
-  { "id": "62364783", "name": "Andrew Rosário", "handle": "andrewarosario" },
-  { "id": "56924723", "name": "Marcus Paulo", "handle": "_marcuspaulo" },
-  { "id": "56004463", "name": "Glaucia Lemos", "handle": "glaucia_lemos86" },
+  { "id": "62851712", "name": "Adriano", "username": "adrianolcp" },
+  { "id": "62364783", "name": "Andrew Rosário", "username": "andrewarosario" },
+  { "id": "56924723", "name": "Marcus Paulo", "username": "_marcuspaulo" },
+  { "id": "56004463", "name": "Glaucia Lemos", "username": "glaucia_lemos86" },
   {
     "id": "52256955",
     "name": "Níckolas Da Silva (apoia.se/cozinhasolidaria)",
-    "handle": "nawarian"
+    "username": "nawarian"
   },
-  { "id": "51629615", "name": "Andre Baltieri", "handle": "andrebaltieri" },
+  { "id": "51629615", "name": "Andre Baltieri", "username": "andrebaltieri" },
   {
     "id": "45833202",
     "name": "twitch.tv/pokemaobr - pokemaobr.dev (de palco)",
-    "handle": "pokemaobr"
+    "username": "pokemaobr"
   },
-  { "id": "39490780", "name": "Karina M. Varela", "handle": "kvarel4" },
-  { "id": "34083048", "name": "Gabs Ferreira", "handle": "o_gabsferreira" },
-  { "id": "27498086", "name": "Otavio Lemos", "handle": "otaviolemos" },
-  { "id": "27003837", "name": "Evelyn 🏳️‍⚧️", "handle": "evlymn" },
-  { "id": "25144275", "name": "a.Mar();", "handle": "cantinhodamar" },
+  { "id": "39490780", "name": "Karina M. Varela", "username": "kvarel4" },
+  { "id": "34083048", "name": "Gabs Ferreira", "username": "o_gabsferreira" },
+  { "id": "27498086", "name": "Otavio Lemos", "username": "otaviolemos" },
+  { "id": "27003837", "name": "Evelyn 🏳️‍⚧️", "username": "evlymn" },
+  { "id": "25144275", "name": "a.Mar();", "username": "cantinhodamar" },
   {
     "id": "20861947",
     "name": "Ellison - twitch.tv/npxbr",
-    "handle": "ellisonleao"
+    "username": "ellisonleao"
   },
-  { "id": "20732572", "name": "Giovanni Bassi 🇧🇷", "handle": "giovannibassi" },
-  { "id": "19650263", "name": "Francisco Thiago", "handle": "fta_thiago" },
-  { "id": "19625601", "name": "Erika Heidi ✨", "handle": "erikaheidi" },
-  { "id": "18670661", "name": "Thiago Ramos", "handle": "thramosal" },
-  { "id": "18083426", "name": "Elemar Júnior", "handle": "elemarjr" },
-  { "id": "16746412", "name": "Jefferson Otoni", "handle": "jeffotoni" },
-  { "id": "16586191", "name": "Edinei Cavalcanti", "handle": "neiesc" },
-  { "id": "15808817", "name": "De Crush com Aline", "handle": "AlineBastos" },
-  { "id": "15413333", "name": "/ana.(js|clj)/g", "handle": "naluhh" },
-  { "id": "15292789", "name": "Claudson Oliveira🇵🇹", "handle": "filhodanuvem" },
-  { "id": "14727503", "name": "Loiane Groner", "handle": "loiane" },
+  {
+    "id": "20732572",
+    "name": "Giovanni Bassi 🇧🇷",
+    "username": "giovannibassi"
+  },
+  { "id": "19650263", "name": "Francisco Thiago", "username": "fta_thiago" },
+  { "id": "19625601", "name": "Erika Heidi ✨", "username": "erikaheidi" },
+  { "id": "18670661", "name": "Thiago Ramos", "username": "thramosal" },
+  { "id": "18083426", "name": "Elemar Júnior", "username": "elemarjr" },
+  { "id": "16746412", "name": "Jefferson Otoni", "username": "jeffotoni" },
+  { "id": "16586191", "name": "Edinei Cavalcanti", "username": "neiesc" },
+  { "id": "15808817", "name": "De Crush com Aline", "username": "AlineBastos" },
+  { "id": "15413333", "name": "/ana.(js|clj)/g", "username": "naluhh" },
+  {
+    "id": "15292789",
+    "name": "Claudson Oliveira🇵🇹",
+    "username": "filhodanuvem"
+  },
+  { "id": "14727503", "name": "Loiane Groner", "username": "loiane" },
   {
     "id": "14444393",
     "name": "Gomex - Se vacine por favor!",
-    "handle": "gomex"
+    "username": "gomex"
   },
-  { "id": "14347532", "name": "Bruno Rocha ❁", "handle": "rochacbruno" },
-  { "id": "14341495", "name": "Adolfo Neto", "handle": "adolfont" },
-  { "id": "14263050", "name": "Paulo Silveira", "handle": "paulo_caelum" },
-  { "id": "14228155", "name": "Julio Bitencourt", "handle": "juliobitencourt" },
-  { "id": "14181799", "name": "Vinícius Alves Hax", "handle": "vinicius_ah" },
-  { "id": "10876492", "name": "FabricioVeronez", "handle": "FabricioVeronez" },
-  { "id": "10095682", "name": "luis.leao", "handle": "luisleao" },
-  { "id": "2872751", "name": "eltonminetto.dev", "handle": "eminetto" }
+  { "id": "14347532", "name": "Bruno Rocha ❁", "username": "rochacbruno" },
+  { "id": "14341495", "name": "Adolfo Neto", "username": "adolfont" },
+  { "id": "14263050", "name": "Paulo Silveira", "username": "paulo_caelum" },
+  {
+    "id": "14228155",
+    "name": "Julio Bitencourt",
+    "username": "juliobitencourt"
+  },
+  { "id": "14181799", "name": "Vinícius Alves Hax", "username": "vinicius_ah" },
+  {
+    "id": "10876492",
+    "name": "FabricioVeronez",
+    "username": "FabricioVeronez"
+  },
+  { "id": "10095682", "name": "luis.leao", "username": "luisleao" },
+  { "id": "2872751", "name": "eltonminetto.dev", "username": "eminetto" }
 ]
