@@ -53,6 +53,8 @@ while (devTwittersQueue.length > 0) {
 
     let followersResponse: Response = await fetch(followersURL, requestOptions);
 
+    console.log(followersResponse);
+
     if (followersResponse.status === 429) {
       gotRateLimited = true;
       // TOO many requests, should wait 15 min before retrying
@@ -92,7 +94,7 @@ while (devTwittersQueue.length > 0) {
       followersData.data.forEach((user) => {
         followers.set(user.id, user);
         if (
-          (followersFollowersCount.get(user.id) ?? 0) > 400 &&
+          (followersFollowersCount.get(user.id) ?? 0) > 800 &&
           !devTwittersProcessed.has(user.id)
         ) {
           devTwittersQueue.push(user);
