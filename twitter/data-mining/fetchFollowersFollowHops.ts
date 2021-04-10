@@ -34,12 +34,14 @@ while (devTwittersQueue.length > 0) {
   const followers = new Map();
 
   let paginationToken: string | undefined = "";
-  let gotRateLimited = false;
+  let gotRateLimited: boolean;
 
   do {
     console.log(
       `Number of followers scraped for ${devTwitter.name}: ${followers.size}`
     );
+
+    gotRateLimited = false;
 
     let followersURL = `https://api.twitter.com/2/users/${
       devTwitter.id

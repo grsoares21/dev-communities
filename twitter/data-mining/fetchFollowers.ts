@@ -1,3 +1,5 @@
+// this version of the scripts recovers only the followers of the twitters that are in the devTwitters.json file
+
 import { config } from "https://deno.land/x/dotenv/mod.ts";
 
 type TwitterProfile = {
@@ -24,12 +26,14 @@ for (let i = 0; i < devTwitters.length; i++) {
   const followers = new Map();
 
   let paginationToken: string | undefined = "";
-  let gotRateLimited = false;
+  let gotRateLimited: boolean;
 
   do {
     console.log(
       `Number of followers scraped for ${devTwitter.name}: ${followers.size}`
     );
+
+    gotRateLimited = false;
 
     let followersURL = `https://api.twitter.com/2/users/${
       devTwitter.id
