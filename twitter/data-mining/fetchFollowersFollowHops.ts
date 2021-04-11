@@ -2,9 +2,10 @@
 // with more than 800 followers to the queue
 
 import { config } from "https://deno.land/x/dotenv/mod.ts";
+import { existsSync } from "https://deno.land/std/fs/mod.ts";
 
-const devTwittersQueue: TwitterProfile[] = [];
-const devTwittersProcessed = new Set<string>();
+let devTwittersQueue: TwitterProfile[] = [];
+const devTwittersQueued = new Set<string>();
 
 type TwitterProfile = {
   id: string;
@@ -12,11 +13,22 @@ type TwitterProfile = {
   username: string;
 };
 
-const devTwitters = JSON.parse(
-  Deno.readTextFileSync("../data/devTwitters.json")
-) as TwitterProfile[];
+const queueExists = existsSync("../data/queue.json");
 
-devTwittersQueue.push(...devTwitters);
+if(queueExists) {
+  // already had a queue from a previous run, so we're continuing with that queue
+  devTwittersQueue = JSON.parse(Deno.readTextFileSync("../data/queue.json"));
+} else {
+  // initializing queue from devTwitters.json
+  const devTwitters = JSON.parse(
+    Deno.readTextFileSync("../data/devTwitters.json")
+  ) as TwitterProfile[];
+  
+  devTwittersQueue.push(...devTwitters);
+}
+
+devTwittersQueue.forEach(devProfile => devTwittersQueued.add(devProfile.id));
+
 
 const env = config();
 
@@ -30,7 +42,9 @@ var requestOptions = {
 while (devTwittersQueue.length > 0) {
   console.log(`--- Twitters to be processed: ${devTwittersQueue.length} ---`);
   const devTwitter = devTwittersQueue.shift() as TwitterProfile;
-  console.log(`--- Scraping followers for: ${devTwitter.name}`);
+  Deno.writeTextFileSync("../data/queue.json", JSON.stringify(devTwittersQueue));
+
+  console.log(`--- Scraping followers for: ${devTwitter.name} ---`);
   const followers = new Map();
 
   let paginationToken: string | undefined = "";
@@ -48,8 +62,6 @@ while (devTwittersQueue.length > 0) {
     }/followers${
       paginationToken ? `?pagination_token=${paginationToken}` : ""
     }`;
-
-    devTwittersProcessed.add(devTwitter.id);
 
     let followersResponse: Response = await fetch(followersURL, requestOptions);
 
@@ -93,9 +105,10 @@ while (devTwittersQueue.length > 0) {
         followers.set(user.id, user);
         if (
           (followersFollowersCount.get(user.id) ?? 0) > 800 &&
-          !devTwittersProcessed.has(user.id)
+          !devTwittersQueued.has(user.id)
         ) {
           devTwittersQueue.push(user);
+          devTwittersQueued.add(user.id);
         }
       });
       console.log(
@@ -104,7 +117,7 @@ while (devTwittersQueue.length > 0) {
       paginationToken = followersData.meta.next_token;
 
       Deno.writeTextFileSync(
-        `../data/individual-followers/${devTwitter.name}.csv`,
+        `../data/individual-followers/${devTwitter.username}.csv`,
         [...followers.values()].map((follower) => follower.id).join(",")
       );
     }
