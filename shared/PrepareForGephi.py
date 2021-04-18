@@ -50,12 +50,9 @@ def CreateOverlapDict(dict):
         count+=1
     return viewerOverlapDict
 
-rawDict = ReadOutToDict("../twitter/data/allFollowers.csv") #Read the data from csv
-dict = CreateOverlapDict(rawDict) #Process data creating dictionary of {streamer1: {streamer2: overlap, streamer3: overlap}}
-
 #Generates a new csv file for the edge list on Gephi
 def GenerateGephiData(dict):
-    with open("../gephi/twitterGephiData.csv", 'w') as csvfile:
+    with open("./gephiData.csv", 'w') as csvfile:
         writer = csv.writer(csvfile)
         #writer.writeheader()
         writer.writerow(["Source", "Target", "Weight"]) #These column headers are used in Gephi automatically
@@ -70,12 +67,18 @@ def GenerateGephiData(dict):
 def GenerateGephiLabels(rawDict):
     print("Generating Labels...")
     sys.stdout.flush()
-    with open("../gephi/twitterGephiLabels.csv", 'w') as csvfile:
+    with open("./gephiLabels.csv", 'w') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow(["ID", "Label", "Count"]) #These columns are used in Gephi automatically
         for key, value in rawDict.items():
             writer.writerow([key, key, len(value)]) #This data is streamer1, streamer1, and # of unique viewers for streamer1
 
 #Generate Gephi data files with the dictionaries
+if len(sys.argv) != 2:
+    print('Please pass the input csv file with all the accounts and associated followers/watchers/etc as first parameter to the script.')
+    sys.exit()
+
+rawDict = ReadOutToDict(sys.argv[1]) #Read the data from csv
+dict = CreateOverlapDict(rawDict) #Process data creating dictionary of {streamer1: {streamer2: overlap, streamer3: overlap}}
 GenerateGephiData(dict)
 GenerateGephiLabels(rawDict)
