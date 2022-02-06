@@ -61,7 +61,8 @@ def GenerateGephiData(dict):
             for node, count in value.items():
                 nodeB = node
                 print(nodeA + " " + nodeB)
-                writer.writerow([nodeA, nodeB, count]) #nodeA is streamer1, nodeB is streamer2, and count is their overlapping viewers
+                if count > 100: #only crate connections for people with at least 100 followers in common
+                    writer.writerow([nodeA, nodeB, count]) #nodeA is streamer1, nodeB is streamer2, and count is their overlapping viewers
 
 #Generates a new csv file for the node list labels on Gephi
 def GenerateGephiLabels(rawDict):
