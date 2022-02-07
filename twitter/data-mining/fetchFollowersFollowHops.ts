@@ -19,9 +19,9 @@ if(queueExists) {
   // already had a queue from a previous run, so we're continuing with that queue
   devTwittersQueue = JSON.parse(Deno.readTextFileSync("../data/queue.json"));
 } else {
-  // initializing queue from devTwitters.json
+  // initializing queue from initialQueue.json
   const devTwitters = JSON.parse(
-    Deno.readTextFileSync("../data/devTwitters.json")
+    Deno.readTextFileSync("../data/initialQueue.json")
   ) as TwitterProfile[];
   
   devTwittersQueue.push(...devTwitters);
